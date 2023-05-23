@@ -1,11 +1,10 @@
 import os
 import re
+import shutil
 import time
+
 import ffmpeg
 from faster_whisper import WhisperModel
-import shutil
-import traceback
-
 
 spath = "z:/ASMR"
 dpath = spath + '_short'
